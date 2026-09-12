@@ -6,6 +6,7 @@ import UseCases from './components/UseCases';
 import Pricing from './components/Pricing';
 import CallToAction from './components/CallToAction';
 import Footer from './components/Footer';
+import CookieConsent from './components/CookieConsent';
 
 function App() {
     return (
@@ -19,6 +20,7 @@ function App() {
                 <Pricing />
                 <CallToAction />
             </main>
+            <CookieConsent />
             <Footer />
         </div>
     );
